@@ -28,6 +28,11 @@ body {
     border-radius: 1rem;
 }
 
+a:focus-visible {
+    outline: 3px solid black;
+    outline-offset: 3px;
+  }
+
 h1 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
